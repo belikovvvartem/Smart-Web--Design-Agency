@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&display=swap);
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	--ff-main: "Rubik", sans-serif;
+	--txt-color: #3D3D3F;
+}
+
+.container {
+	width: 1223px;
+	height: 5791px;
+	margin: 0 auto;
+	
+}
+
+.header {
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	gap: 7px;
+	justify-content: space-between;
+}
+
+.logo-img {
+	width: 41.594px;
+	height: 46.144px;
+}
+
+.logo-text {
+	display: flex;
+	align-items: center;
+	width: 147px;
+	color: var(--txt-color);
+	font-family: var(--ff-main);
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+	
+}
+
+.nav {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	gap: 60px;
+	margin: 8px 0 0 4px;
+}
+
+
+.nav a {
+	text-decoration: none;
+	color: #3D3D3F;
+	font-family: "DM Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+
+}
+
+.nav li:first-child>a{
+	color: rgba(243, 95, 47, 1);
+}
+.nav-but {
+	border: none;
+	display: flex;
+	justify-content: center;
+	width: 117.6px;
+	height: 42px;
+	margin-right: 53.5px;
+	padding: 13px 24px;
+	align-items: flex-start;
+	gap: 10px;
+	border-radius: 5px;
+	opacity: 0.85;
+	background: var(--Gd-color, linear-gradient(3deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%));
+	color: #FFF;
+	font-family: "DM Sans";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+
+.main{
+	height: 415px;
+	display: flex;
+}
+.main-group{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	width: 538px;
+	height: 353px;
+	padding-top: 80px;
+}
+.main-img{
+	width: 626px;
+    margin: 46px -63px -50px 59px;
+	
+}
+.main-title{
+	font-family: var(--ff-main);
+	margin-top: 1px;
+	font-size: 72px;
+	font-weight: 500;
+}
+.main-text{
+	color: var(--Primary, #3D3D3F);
+	font-family: Rubik;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.main .nav-but{
+	width: 219px;
+    
+}
+.main .nav-but:nth-of-type(1) {
+	height: 55px;
+	padding: 14px 24px;
+	font-size: 19.5px;
+}
+.web-services{
+	margin-top: 120px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.web-services-title{
+	width: 100%;
+	text-align: center;
+}
+.web-service{
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 13px;
+	width: 235px;
+	height: 204px;
+}
