@@ -72,9 +72,10 @@ body {
 
 }
 
-.nav li:first-child>a {
+.nav a:hover {
     color: rgba(243, 95, 47, 1);
 }
+
 
 .nav-but {
     border: none;
@@ -97,6 +98,9 @@ body {
     line-height: normal;
 }
 
+.nav-but:hover {
+    background: rgba(243, 95, 47, 1);
+}
 
 .main {
     height: 415px;
@@ -315,6 +319,12 @@ body {
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+}
+
+.latest-projects-button:hover {
+    background: rgba(243, 95, 47, 1);
 }
 
 .our-teams {
@@ -398,7 +408,8 @@ body {
     padding: 50px 0;
 }
 
-.testimonials-tittle {
+.section-tittle {
+    text-align: center;
     color: var(--Primary, #3D3D3F);
     font-family: "DM Sans";
     font-size: 40px;
@@ -525,5 +536,176 @@ body {
     bottom: 13.1%;
     right: 32.5%;
     z-index: 1;
-    border-radius: 0; 
+    border-radius: 0;
+}
+
+.contact-us {
+    margin-top: 252px;
+    margin-left: 143px;
+    width: 951px;
+    height: 696px;
+}
+
+.inputs-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 9px;
+    margin-top: 60px;
+    gap: 33px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 343.168px;
+    height: 87.378px;
+    flex-shrink: 0;
+}
+
+.input-wrapper label {
+    color: var(--Primary, #3D3D3F);
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+
+.input-wrapper input {
+    width: 343.168px;
+    height: 52.378px;
+    flex-shrink: 0;
+    margin-top: 11px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 120px 0px rgba(0, 0, 0, 0.03);
+    border: 0;
+}
+
+.input-wrapper :placeholder-shown {
+    color: #515155;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input-wrapper:nth-of-type(3),
+.input-wrapper:nth-of-type(4) {
+    margin-top: -10px;
+}
+
+.input-wrapper:nth-of-type(5) {
+    width: 719px;
+    height: 226px;
+    flex-shrink: 0;
+}
+
+.contact-us-button {
+    width: 207px;
+    height: 53px;
+    margin-top: -31px;
+    margin-left: 33px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    opacity: 0.85;
+    background: var(--Gd-color, linear-gradient(3deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%));
+    border: 0;
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.contact-us-button:hover {
+    background: rgba(243, 95, 47, 1);
+}
+
+.input-wrapper:nth-last-of-type(1) input {
+    width: 719px;
+    height: 191px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 120px 0px rgba(0, 0, 0, 0.03);
+}
+
+footer {
+    display: flex;
+    gap: 160px;
+}
+
+.logo-footer {
+    display: flex;
+    gap: 8px;
+}
+
+.contact p {
+    margin-top: 20px;
+    color: var(--Medium-Dark, #646464);
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.footer-social {
+    margin-top: 16px;
+}
+
+.category ul {
+    list-style-type: none;
+    color: var(--Medium-Dark, #646464);
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 100% */
+}
+
+li{
+    margin-top: 24px;
+}
+
+li:first-child {
+    color: var(--Dark, #323232);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    /* 100% */
+    font-weight: 900;
+}
+
+.about ul {
+    list-style-type: none;
+    color: var(--Medium-Dark, #646464);
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 100% */
+}
+
+li:first-child {
+    color: var(--Primary, #3D3D3F);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    /* 100% */
+    font-weight: 900;
 }
