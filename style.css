@@ -15,7 +15,7 @@ body {
 
 .container {
     width: 1223px;
-    height: 5791px;
+    height: 5491px;
     margin: 0 auto;
     background: rgba(239, 239, 239, 1);
 }
@@ -297,7 +297,11 @@ body {
     background: #FFF;
 }
 
-.latest-project-img {}
+.latest-project:nth-of-type(4),
+.latest-project:nth-of-type(5),
+.latest-project:nth-of-type(6) {
+    margin-top: 26px;
+}
 
 .latest-project-text {
     margin: 15px 33px 1px 34px;
@@ -410,7 +414,7 @@ body {
     padding-top: 15px;
 }
 
-.our-team:nth-of-type(3) .our-team-name{
+.our-team:nth-of-type(3) .our-team-name {
     margin-top: -105px;
 }
 
@@ -605,6 +609,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding: 0 12px;
 }
 
 .input-wrapper:nth-of-type(3),
@@ -656,6 +661,7 @@ footer {
     margin-top: 70px;
     margin-left: 2px;
     gap: 160px;
+    height: 300px;
 }
 
 .logo-footer {
@@ -735,6 +741,16 @@ li:first-child {
     margin-left: 5px;
 }
 
+.newsletter input:placeholder-shown {
+    padding: 0 12px;
+    color: rgba(117, 117, 117, 0.65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .newsletter h3 {
     color: var(--Primary, #3D3D3F);
     font-family: "DM Sans";
@@ -805,23 +821,27 @@ footer hr {
     background: #969696;
 }
 
-.footer-footer{
+.footer-footer {
     display: flex;
     margin-top: -264px;
     margin-left: 9px;
+    height: 20px;
 }
 
-.footer-footer p{
+.footer-footer p {
     color: var(--Medium-Dark, #646464);
-font-family: "DM Sans";
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 14px; /* 100% */
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 100% */
+    height: 20px;
 }
 
-.security{
+.security {
     display: flex;
     margin-left: 644px;
     gap: 54px;
+    height: 20px;
 }
