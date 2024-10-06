@@ -7,6 +7,7 @@
     margin: 0;
     --ff-main: "Rubik", sans-serif;
     --txt-color: #3D3D3F;
+    user-select: none;
 }
 
 body {
